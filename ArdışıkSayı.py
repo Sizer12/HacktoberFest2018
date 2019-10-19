@@ -1,12 +1,12 @@
 # Her Türlü Ardışık Dizinin Terimleri Toplamını Veren Program
 
-a = input("İlk Terim:")
-b = input("Son Terim:")
-c = input("Ardışık İki Terimin Farkı:")
+a = input("İlk Terim:") #ilk terim gidisini alır
+b = input("Son Terim:") # ikinci terim girdisini alır
+c = input("Ardışık İki Terimin Farkı:") #kaçar kaçar atlayacağı girdisini alır
 
-sonuç = (((int(a) + int(b)) * (int(b) - int(a) + int(c))) / (2 * int(c)))
+sonuç = (((int(a) + int(b)) * (int(b) - int(a) + int(c))) / (2 * int(c))) #sonucu hesaplar
 
-print("Sonuç:", int(sonuç))
+print("Sonuç:", int(sonuç)) #sonucu yazdırır
 
 # Her Türlü Ardışık Dizinin Terimleri Toplamını Veren Program
 
